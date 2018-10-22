@@ -50,6 +50,7 @@
     <Compile Include="Rocky.cs" />
     <Compile Include="RoshamboApp.cs" />
     <Compile Include="RPS.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

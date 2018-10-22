@@ -10,14 +10,17 @@ namespace Lab_13
     {
         static void Main(string[] args)
         {
-            Random r = new Random();
-            Player p = new Randy(r);
-            for (int i = 0; i < 20; i++)
-            {
-                Console.WriteLine(p.GenRPS());
-            }
+
+            RoshamboApp menu = new RoshamboApp();
+            menu.CreatingNewUser();
+
+            menu.Opponent();
+
+            menu.PickRoshambo();
 
             Console.ReadLine();
+
+
 
         }
     }
