@@ -2,7 +2,7 @@
 
 namespace Lab_13
 {
-    class User : Player
+    public class User : Player
     {
         private string userName;
         public string Username { get { return userName;} }

@@ -1,6 +1,6 @@
 ﻿namespace Lab_13
 {
-    class Player
+    public class Player
     {
         private string name;
         private string rpsValue;
