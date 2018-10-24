@@ -14,6 +14,11 @@ namespace Lab_13
             this.userName = userName;
         }
 
+        public  string GetUserName()
+        {
+            return userName;
+        }
+
         public string UserPicks(int rpsUser)
         {
             int pick = rpsUser;
